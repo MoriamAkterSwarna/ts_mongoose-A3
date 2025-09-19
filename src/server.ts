@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import mongoose from "mongoose";
 import { Server } from "http";
 import app from "./app";
