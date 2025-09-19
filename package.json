@@ -1,5 +1,5 @@
 {
-  "name": "Library-management-assignment-03",
+  "name": "library-management-assignment-03",
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {

@@ -10,7 +10,9 @@ async function main(){
     try{
 
         await mongoose.connect(
-          "mongodb+srv://moriamakterswarna:cCOp4ieBaKR11EkI@cluster0.zh14pzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+          //   "mongodb+srv://moriamakterswarna:cCOp4ieBaKR11EkI@cluster0.zh14pzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+          "mongodb+srv://firebirdswarna:XRbgpNdpw6cbxdSO@cluster0.iyu5d.mongodb.net/library-management?retryWrites=true&w=majority&appName=Cluster0"
         );
 
 
