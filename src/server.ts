@@ -19,7 +19,7 @@ async function main(){
         console.log("Connected to DB")
 
 
-        server = app.listen(PORT, () =>{
+        server =  app.listen(PORT, () =>{
             console.log(`Server is running on Port ${PORT}`)
         })
 
