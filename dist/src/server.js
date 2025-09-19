@@ -20,7 +20,9 @@ const PORT = 3000;
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            yield mongoose_1.default.connect("mongodb+srv://moriamakterswarna:cCOp4ieBaKR11EkI@cluster0.zh14pzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+            yield mongoose_1.default.connect(
+            //   "mongodb+srv://moriamakterswarna:cCOp4ieBaKR11EkI@cluster0.zh14pzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            "mongodb+srv://firebirdswarna:XRbgpNdpw6cbxdSO@cluster0.iyu5d.mongodb.net/library-management?retryWrites=true&w=majority&appName=Cluster0");
             console.log("Connected to DB");
             server = app_1.default.listen(PORT, () => {
                 console.log(`Server is running on Port ${PORT}`);
